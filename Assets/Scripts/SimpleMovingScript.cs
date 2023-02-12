@@ -6,6 +6,9 @@ using Cinemachine;
 
 public class SimpleMovingScript : MonoBehaviour
 {
+    public Transform ShipGraphicModel;
+    public Transform ShipGraphicModel3D;
+
     public CinemachineVirtualCamera CMFishing;
 
     public AudioSource audioSource;
@@ -34,6 +37,15 @@ public class SimpleMovingScript : MonoBehaviour
             );
 
         this.transform.Rotate(Vector3.up, rotMovingMult * xInput * Time.deltaTime);
+
+        ShipGraphicModel3D.transform.Rotate(Vector3.up, rotMovingMult * xInput * Time.deltaTime);
+
+        ShipGraphicModel.transform.rotation = Quaternion.Slerp
+            (
+            Quaternion.identity,
+            Quaternion.Euler(0.0f,0.0f,rotMovingMult * Mathf.Sign(xInput)),
+            Mathf.Abs(xInput)
+            );
     }
 
     private void Fish()

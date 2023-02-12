@@ -201,7 +201,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.08603111, y: -0.00000001696849, z: 0.0000000014652506, w: 0.9962925}
+  m_LocalRotation: {x: 0.0860311, y: 0.000000018026292, z: -0.0000000015565926, w: 0.9962925}
   m_LocalPosition: {x: 0, y: 3, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -440,6 +440,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &986799731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 986799732}
+  m_Layer: 0
+  m_Name: ShipModel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &986799732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986799731}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1218005998}
+  m_Father: {fileID: 1657105629}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1218005998 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1548176335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1261996043
 GameObject:
   m_ObjectHideFlags: 3
@@ -730,7 +768,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376853483}
-  m_Mesh: {fileID: 1973613829}
+  m_Mesh: {fileID: 1845189554}
 --- !u!4 &1376853488
 Transform:
   m_ObjectHideFlags: 0
@@ -817,6 +855,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 25.54, y: 0, z: 0}
+--- !u!1001 &1548176335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 986799732}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7437121265378964899, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1c1ccac286e0655458bbb7ea2c0d16ad, type: 2}
+    - target: {fileID: -5059927745362260904, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7ccdf450bfa657b4190665aa6e74d494, type: 2}
+    - target: {fileID: -655661147714409005, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7ccdf450bfa657b4190665aa6e74d494, type: 2}
+    - target: {fileID: 919132149155446097, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_Name
+      value: watercraftPack_011
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421179840433657653, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2bf6eec84e08ac642b7f0c688ed9327a, type: 2}
+    - target: {fileID: 4652633138477275370, guid: 07d4956ee8088f641b2b93bd4ef61bff,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c158b7e21e0abd9478947812c7e9a494, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 07d4956ee8088f641b2b93bd4ef61bff, type: 3}
 --- !u!1 &1657105625
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,7 +979,7 @@ BoxCollider:
   m_GameObject: {fileID: 1657105625}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -858,7 +990,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657105625}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -912,7 +1044,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 986799732}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -928,6 +1061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1962c08d618fec346bc9cbbeba78bb43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShipGraphicModel: {fileID: 986799732}
+  ShipGraphicModel3D: {fileID: 1218005998}
   CMFishing: {fileID: 1398359857}
   audioSource: {fileID: 1657105631}
   cameraInSound: {fileID: 8300000, guid: 81a48ef6e3549b24693e881ba06a0492, type: 3}
@@ -935,7 +1070,7 @@ MonoBehaviour:
   bIsFishing: 0
   zMovingMult: 10
   zInterpFactor: 0.5
-  rotMovingMult: 40
+  rotMovingMult: 25
 --- !u!82 &1657105631
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1094,7 +1229,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825643411}
-  m_LocalRotation: {x: 0.08603111, y: -0.00000001696849, z: 0.0000000014652506, w: 0.9962925}
+  m_LocalRotation: {x: 0.0860311, y: 0.000000018026292, z: -0.0000000015565926, w: 0.9962925}
   m_LocalPosition: {x: 0, y: 3, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1103,13 +1238,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 25.54, y: 0, z: 0}
---- !u!43 &1973613829
+--- !u!43 &1845189554
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaterVolume-26616
+  m_Name: WaterVolume-26628
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
